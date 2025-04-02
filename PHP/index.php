@@ -4,7 +4,7 @@ require_once "Professor.php";
 require_once "Aluno.php";
 
 $professor = new Professor("Wagner", 40);
-$aluno = new Aluno("Juliana", 19);
+$aluno = new Aluno("Andrey", 19);
 
 echo "<strong>Professor:</strong> ";
 $professor->falar(); 
